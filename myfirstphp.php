@@ -66,7 +66,8 @@ $mygoods=mugs;
 //working through arrays
 $provisionedActivities=Array(drugs,specs,rucks,rolls);
     echo "<p></p>";
-    print $provisionedActivities;
+    foreach($provisionedActivities as $s)
+    {print "<p> $s</p>";}
 
     ?>
 </p>
