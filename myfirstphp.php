@@ -11,6 +11,18 @@
     $myname="Prosper";
     $myage="111";
     echo "<p>my name is ". $myname ." and my age is " . $myage;
+
+    //if else statement
+    $surname="yeng";
+    if ($surname=="prosper")
+    {print "i know you";
+    }
+    else
+    {print"i dont know you";
+
+    }
+
+
     ?>
 </p>
 </body>
