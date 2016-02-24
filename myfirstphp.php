@@ -7,7 +7,7 @@
     echo "<p>Hello World</p>";
 
 
-    echo "Hello," . " " . "world" . "!";
+    echo "<p>Hello," . " " . "world" . "!</p>";
     $myname="Prosper";
     $myage="111";
     echo "my name is ". $myname ." and my age is " . $myage;
