@@ -68,7 +68,17 @@ $provisionedActivities=Array(drugs,specs,rucks,rolls);
     echo "<p></p>";
     foreach($provisionedActivities as $s)
     {print "<p> $s</p>";}
-print $provisionedActivities;
+    $mymonthdays = 0;
+    $mymonth = "september";
+    switch ($mymonth) {
+        case "september":
+            $mymonthdays = 30;
+            break;
+        case "january":
+    }
+
+    $timezone = date_default_timezone_get();
+    echo "The current server timezone is: " . $timezone;
     ?>
 </p>
 </body>
