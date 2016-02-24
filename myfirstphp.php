@@ -24,7 +24,7 @@
 
 $myage=18;
 if ($myage>16)
-{echo "Yaw you can buy specs ";
+{echo "<P>Yaw you can buy specs ";
 
 }
     elseif($myage>18)
@@ -38,6 +38,35 @@ elseif($myage>21)
     echo "Kwame you can buy sausage rolls  ";
 
 }
+
+    else
+    {echo "done";}
+
+$mygoods=mugs;
+    switch ($mygoods) {
+        case specs:
+            echo "you have to be more than 16";
+            break;
+
+        case mug:
+
+            echo "you have to be more than 18";
+            break;
+
+        case mug:
+
+            echo "you have to be more than 18";
+            break;
+
+
+
+    }
+
+
+//working through arrays
+$provisionedActivities=Array(drugs,specs,rucks,rolls);
+    echo "<p></p>";
+    print $provisionedActivities;
 
     ?>
 </p>
