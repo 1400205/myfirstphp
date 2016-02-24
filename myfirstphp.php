@@ -15,10 +15,10 @@
     //if else statement
     $surname="yeng";
     if ($surname=="prosper")
-    {print "i know you";
+    {print "<p>i know you";
     }
     else
-    {print"i dont know you";
+    {print"<p>i dont know you";
 
     }
 
