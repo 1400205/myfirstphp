@@ -68,7 +68,7 @@ $provisionedActivities=Array(drugs,specs,rucks,rolls);
     echo "<p></p>";
     foreach($provisionedActivities as $s)
     {print "<p> $s</p>";}
-
+print $provisionedActivities;
     ?>
 </p>
 </body>
