@@ -85,7 +85,12 @@ $provisionedActivities=Array(drugs,specs,rucks,rolls);
 
 
     $month = date("m",strtotime($date));
-    echo "The current server date is: " . $month;
+    echo "The current  is: " . $month;
+
+    $days = date("t");
+
+    echo "<p>The current server date is:  . $days </p>";
+
     ?>
 </p>
 </body>
