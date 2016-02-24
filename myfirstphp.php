@@ -3,9 +3,8 @@
 <head>
 </head>
 <body>
-<p>
     <?php
-    echo "Hello World";
+    echo "<p>Hello World</p>";
 
 
     echo "Hello," . " " . "world" . "!";
