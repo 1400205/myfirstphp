@@ -22,6 +22,22 @@
 
     }
 
+$myage=18;
+if ($myage>16)
+{echo "Yaw you can buy specs ";
+
+}
+    elseif($myage>18)
+    {
+        echo "Kwame you can buy mugs ";
+
+    }
+
+elseif($myage>21)
+{
+    echo "Kwame you can buy sausage rolls  ";
+
+}
 
     ?>
 </p>
